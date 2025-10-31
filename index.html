@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color:plum; font-size:40px;">Welcome to My Website</h1>
+
+    <div class="contact">
+        <p> <b>Email:</b> zhang.tiffa@northeastern.edu</p>
+        <p> <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/tiffanyzhang17/">linkedin.com/in/tiffanyzhang17</a> </p>
+    </div>
+
+    <h3 style="color:plum; font-size:25px;">About me:</h3>
+
+    <p id = 'main'>Hello! My name is Tiffany Zhang, and I am currently a second-year student at Northeastern University studying 
+        Data Science and Business Administration with a concentration in Fintech. I'm particularly interested in exploring and 
+        applying data analytics, machine learning, and business strategy to drive innovation and support informed decision-making 
+        in the financial technology industry. So far, I’ve gained hands-on experience through projects where I used tools like SQL 
+        and Python to clean, analyze, and visualize real-world datasets. I’ve worked with topics such as public health and sales 
+        performance, using data to uncover trends and generate insights that help support informed business and policy decisions. 
+        In the future, I hope to apply my knowledge to develop data-driven solutions that make finance more efficient, transparent, 
+        and accessible. I’m especially excited about how emerging technologies like artificial intelligence and predictive modeling 
+        can drive meaningful innovation in the fintech industry. Outside of school, I enjoy going on walks, listening to music, and 
+        exploring new places with my family and friends. Thank you for checking out my website!</p>
+
+    <img class="picture" src="picture.jpg" alt="" width = 300>
+
+
+    <button id = 'navigateButton'>Go to Project's Page</button>
+    <script>
+        const navigateButton = document.getElementById('navigateButton')
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'test.html'
+        })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+    font-family: Georgia;
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia;
+}
+
+h3 {
+    text-align: center;
+    font-family: Georgia;
+}
+
+p {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#main {
+    color: black;
+    background-color: lavenderblush;
+    border: 2px dashed black;
+    padding: 10px 10px 10px 10px;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+#project {
+    color: black;
+    background-color: lavenderblush;
+    border: 2px dashed black;
+    padding: 10px 10px 10px 10px;
+    width: 930px;
+    margin: 20px auto;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+.A {
+    border: 2px dashed black;
+    padding: 10px 25px 10px 35px;
+    width: 900px;
+    margin: 0 auto;
+    font-family: Verdana;
+    font-size: 14px;
+    background-color: lavenderblush;
+}
+
+.contact {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 600px;
+    border: 2px dashed black;
+    padding: 10px 10px 10px 10px;
+    background-color: lavenderblush;
+}
+
+.picture {
+    display: block;
+    margin: 20px auto;
+}
+
+#navigateButton {
+    display: block;
+    margin: 20px auto;
+    font-family: Georgia;
+    background-color: paleturquoise;
+    color: black;
+}
+
+body {
+    background-color: aliceblue;
+}
